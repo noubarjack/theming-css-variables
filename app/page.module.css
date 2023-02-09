@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.button {
+  background-color: var(--primary);
+  color: var(--primaryContent);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+}
+
+.modified-button {
+  background-color: var(--secondary) !important;
+  color: var(--secondaryContent);
+}
